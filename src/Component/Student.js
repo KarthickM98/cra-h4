@@ -11,7 +11,7 @@ import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
 function Student() {
-    const [student,setStudent]=useContext(ContextApi)  //assigning the datas from props to the useState like useContext //using context data
+    const [student]=useContext(ContextApi)  //assigning the datas from props to the useState like useContext //using context data
   return (
   <div>
     <p className='Heading'><h1>Student Details</h1><Link to='/student-desc' className='addbtn'>Add Student</Link></p>
