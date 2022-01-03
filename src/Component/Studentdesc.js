@@ -1,5 +1,6 @@
 
 import * as React from 'react';
+import {Link} from 'react-router-dom';
 import '../App.css'
 import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
@@ -54,7 +55,7 @@ export default function Studentdesc() {
         // top:'300px',
         // right:'0px'
       }}
-      variant="outlined">Cancel</Button>  &nbsp;  <Button variant="contained">Update!</Button>
+      variant="outlined"><Link to='../student'>Cancel</Link></Button>  &nbsp;  <Button variant="contained">Update!</Button>
 
     </Box>   
   </div> 
